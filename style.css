@@ -7,3 +7,104 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    background-color: #e9f5db;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, main {
+    width: 75%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    background: radial-gradient(circle, #aacc00, black) ;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 3rem auto;
+    color: #e9f5db;
+    letter-spacing: 2px;
+}
+
+main {
+    margin: 2rem auto;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to bottom, black, #aacc00);
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 2rem;
+    min-height: 200px;
+    min-width: 0;
+    color: #e9f5db;
+}
+
+.bike-title {
+    font-size: 3rem;
+}
+
+.bike-info {
+    margin: 1rem auto 2rem;
+    font-size: 1.5rem;
+    max-width: 80%;
+}
+
+.extra-info {
+    display: none;
+}
+
+.extra-info.show {
+    display: block;
+}
+
+.product-bottom {
+    display: flex;
+    flex-direction: row;
+    margin: auto 2rem 1rem;
+    max-width: 100%;
+    justify-content: space-between
+}
+
+.price {
+    font-size: 2rem; 
+    font-weight: bold;
+    align-content: center;
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #e9f5db;
+    cursor: pointer;
+    outline: 2px solid black;
+    transform: translateY(-2px);
+}
+
+
