@@ -40,7 +40,7 @@ Ik maak regelmatig kleine projecten om deze vaardigheden steeds beter zelfstandi
 
 ## 🚀 Live Demo
 
-[Live Demo](#)
+https://mikadevelopnl.github.io/OPDRACHT-ZELFSTUDIE--Productinformatie-tonen/
 
 ## 📌 Status
 
