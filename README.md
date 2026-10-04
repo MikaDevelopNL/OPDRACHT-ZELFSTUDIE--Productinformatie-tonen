@@ -1,79 +1,47 @@
 # Productinformatie tonen
 
-Een kleine interactieve productpagina voor een fietsenwinkel. De pagina toont twee fietsen en laat de gebruiker met een knop de specificaties van een fiets bekijken.
+Een kleine interactieve website waarbij je productinformatie van twee fietsen kunt bekijken. Met de knop "Meer informatie..." worden de specificaties van de betreffende fiets zichtbaar gemaakt.
 
-## Functionaliteit
+## 🎨 Functionaliteit
 
-* Twee fietsproducten worden weergegeven.
-* Elk product heeft een titel, omschrijving en prijs.
-* Met de knop "Meer informatie..." worden de specificaties van de betreffende fiets getoond.
-* De specificaties kunnen weer verborgen worden door opnieuw op de knop te klikken.
-* Wanneer de specificaties van één fiets worden geopend, worden de specificaties van de andere fiets automatisch gesloten.
+* Bekijk twee verschillende fietsproducten.
+* Bekijk de naam, omschrijving en prijs van iedere fiets.
+* Klik op "Meer informatie..." om de specificaties van een fiets te tonen.
+* Klik opnieuw om de specificaties weer te verbergen.
+* Wanneer de specificaties van één fiets worden geopend, sluit de andere automatisch.
 
-## Gebruikte technieken
+## 🛠️ Gebruikte technieken
 
-### HTML
-
-* Semantische HTML-structuur
-* Productkaarten
-* Buttons
-* Productinformatie en specificaties
-
-### CSS
-
+* HTML5
+* CSS3
+* JavaScript
+* DOM manipulation
+* `querySelector()`
+* `querySelectorAll()`
+* `addEventListener()`
+* `forEach()`
+* `parentElement`
+* `classList`
+* `classList.toggle()`
+* `classList.remove()`
+* `if`
 * CSS Grid
 * Flexbox
-* Gradients
-* Responsive basislayout
-* Klassen gebruiken om informatie te tonen en te verbergen
 
-### JavaScript
+## 📚 Wat heb ik geleerd?
 
-* `querySelectorAll()`
-* `forEach()`
-* `addEventListener()`
-* `parentElement`
-* `querySelector()`
-* `classList.toggle()`
-* `classList.add()`
-* `classList.remove()`
-* `if`-statement
+Tijdens dit project heb ik vooral geoefend met het koppelen van een specifieke button aan de juiste productinformatie.
 
-## Wat ik heb geleerd
+Ik heb geleerd hoe ik met `querySelectorAll()` meerdere knoppen kan selecteren en met `forEach()` aan iedere knop een `click` event kan koppelen. Daarnaast heb ik geoefend met `parentElement` om vanuit een button naar het bijbehorende product te gaan en met `querySelector()` de juiste informatie binnen dat product te selecteren.
 
-Tijdens deze opdracht heb ik geoefend met het koppelen van een klik op een specifieke button aan de juiste productinformatie.
+Ook heb ik verder geoefend met `classList.toggle()` en `classList.remove()` om informatie zichtbaar en onzichtbaar te maken.
 
-Ik heb geleerd hoe ik vanuit een button via de DOM naar het bijbehorende product kan gaan en vervolgens de juiste `.extra-info` kan selecteren.
+Ik maak regelmatig kleine projecten om deze vaardigheden steeds beter zelfstandig toe te passen. Tijdens het leren gebruik ik ChatGPT als hulp wanneer ik vastloop. Ik probeer daarbij eerst zelf na te denken en de oplossing stap voor stap te begrijpen, in plaats van de volledige oplossing direct over te nemen.
 
-Daarnaast heb ik geoefend met het openen en sluiten van elementen met CSS-klassen en JavaScript.
+## 🚀 Live Demo
 
-## Projectstructuur
+[Live Demo](#)
 
-```text
-Productinformatie tonen/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+## 📌 Status
 
-## Git
-
-Tijdens het project is Git gebruikt om de voortgang bij te houden.
-
-Belangrijke commando's:
-
-```bash
-git status
-git add .
-git commit -m "Beschrijving van wijziging"
-git push
-```
-
-`git status` gebruik ik om te controleren wat er gewijzigd is.
-
-Met `git add .` voeg ik de wijzigingen toe aan de volgende commit.
-
-Met `git commit -m` sla ik een logisch afgeronde wijziging op in de Git-geschiedenis.
-
-Met `git push` stuur ik de commits naar GitHub.
+Dit project is afgerond als oefenproject. Het doel was om JavaScript verder te oefenen met DOM-manipulatie, event listeners en het gericht tonen en verbergen van informatie.
